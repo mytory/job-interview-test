@@ -9,6 +9,12 @@ a {
 a:hover {
 	background: #eee;
 }
+.logo__a, .logo__img {
+	display: inline-block;
+}
+.logo__a:hover {
+	background: none;
+}
 .w-1-3 {
 	width: 33.33333%;
 }
