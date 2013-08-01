@@ -1,0 +1,16 @@
+.footer {
+	text-align: center;
+}
+.f-ul {
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	text-align: left;
+}
+.f-li {
+	font-size: 12px;
+	font-style: normal;
+  display: inline-block;
+  margin-right: 1em;
+	padding: 3px 0;
+}

@@ -1,0 +1,10 @@
+/*===== common =====*/
+body {
+	font-family: arial, "맑은 고딕";
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	background: #eee;
+}

@@ -1,0 +1,48 @@
+/*===== nav =====*/
+.nav {
+	background: #eee;
+}
+.nav__wrap-ul {
+	padding: 0;
+}
+.nav__li-1d {
+	display: inline-block;
+	position: relative;
+	width: 25%;
+}
+.nav__a-1d {
+	display: inline-block;
+	width: 100%;
+	padding: 1em 0;
+	text-align: center;
+	font-weight: bold;
+}
+.nav__a-1d, .nav__a-2d {
+	color: #333;
+}
+.nav__a-1d:hover {
+	background: black;
+	color: white;
+}
+.nav__sub-ul {
+	display: none;
+}
+.nav__li-1d:hover .nav__sub-ul {
+	box-sizing: border-box;
+	display: block;
+	position: absolute;
+	width: 100%;
+	border: 1px solid #eee;
+	border-top: none;
+	list-style: none;
+	padding: 0;
+	background: white;
+}
+.nav__a-2d {
+	display: block;
+	padding: 0.5em 1em;
+}
+.nav__a-2d:hover {
+	background: black;
+	color: white;
+}
