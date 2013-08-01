@@ -1,6 +1,11 @@
 @charset "utf-8";
 
 @import url("css/common.css");
-@import url("css/nav.css");
 @import url("css/index-middle.css");
-@import url("css/footer.css")
+@import url("css/index-latest.css");
+@import url("css/footer.css");
+
+/*===== module =====*/
+@import url("css/nav.css");
+@import url("css/short-list.css");
+

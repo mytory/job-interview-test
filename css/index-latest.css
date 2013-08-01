@@ -1,0 +1,9 @@
+.index-latest {
+	margin-top: 1em;
+}
+.index-latest .s-list {
+	border-right: 1px dotted #ddd;
+}
+.index-latest .s-list:last-child {
+	border-right: none;
+}

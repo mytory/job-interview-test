@@ -1,0 +1,42 @@
+.s-list {
+	position: relative;
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.s-list__inner {
+	padding-right: 1em;
+}
+.s-list__title {
+	font-size: 1.3em;
+	background: black;
+	padding: 0.5em;
+	margin: 0;
+}
+.s-list__title-a {
+	color: white;
+}
+.s-list__title-a:hover {
+	color: black;
+}
+.s-list__ul {
+	padding-left: 1em;
+}
+.s-list__li {
+	list-style-position: inside;
+	padding-bottom: 2px;
+}
+.s-list__a {
+	font-size: 0.9285714285714286em;
+	color: #444;
+}
+.s-list__more {
+	position: absolute;
+	right: 2em;
+	top: 1em;
+	font-size: 0.8571428571428571em;
+	color: white;
+}
+.s-list__more:hover {
+	color: black;
+}
