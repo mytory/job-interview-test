@@ -30,6 +30,9 @@
 	font-size: 0.9285714285714286em;
 	color: #444;
 }
+.s-list__a:visited {
+	color: #999;
+}
 .s-list__more {
 	position: absolute;
 	right: 2em;
