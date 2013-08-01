@@ -26,3 +26,8 @@ a:hover {
 	margin-right: auto;
 	margin-left: auto;
 }
+.clearfix:after {
+  content:'';
+  display: block;
+  clear: both;
+}
